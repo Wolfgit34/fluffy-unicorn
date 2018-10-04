@@ -1,0 +1,51 @@
+.home_a {
+    display: inline-block;
+    padding: 5px 10px;
+    background: white;
+    color: black;
+    height: 40px;
+    width:180px; 
+    border: 1px solid Gainsboro;
+    margin: 10px 0;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+
+.moved{
+    margin-left:40%;
+}
+
+.home{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+}
+
+.picture{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 7px; /* Значение отступов */
+    padding: 20px; /* Поля вокруг текста */
+    border: 3px solid black; /* Параметры границы */
+    background: #fff; /* Цвет фона */
+    left: 160px;
+}
+
+.text{
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    top: 55px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    
+}
